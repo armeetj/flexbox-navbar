@@ -14,10 +14,16 @@
 - register button hover animation
 ```
 
-| `/navbar1/index.html` | 
+| `/navbar1/index.html` |
+|:--:|
 | ![GIPH Failed to Load: navbar1](https://i.imgur.com/qWQNEtY.gif) |
-|:--:| 
+|:--:|
 | *(Click Me)* |
+|:--:|
+```
+- simple fade in/out hover animations
+- register button hover animation
+```
 
 ## Style 2
 `/navbar2/index.html`
