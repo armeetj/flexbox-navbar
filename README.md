@@ -9,7 +9,7 @@
 | `/navbar1/index.html` |
 | :---: |
 | ![GIPH Failed to Load: navbar1](https://i.imgur.com/qWQNEtY.gif) |
-| *(Click GIF -> View Hi-Res Version on Imgur)* |
+| *[🔗 Click Here](https://i.imgur.com/qWQNEtY.gif)* |
 ```
 - simple fade in/out hover animations
 - register button hover animation
@@ -19,7 +19,7 @@
 | `/navbar2/index.html` |
 | :---: |
 | ![GIPH Failed to Load: navbar1](https://i.imgur.com/dYWYCJW.gif) |
-| *(Click GIF -> View Hi-Res Version on Imgur)* |
+| *[🔗 Click Here](https://i.imgur.com/dYWYCJW.gif)* |
 ```
 - little more complex
 - social links and links moved left
