@@ -27,6 +27,10 @@ header {
     width: 60px;
     justify-self: start;
     cursor: pointer;
+    transition: all 0.2s ease 0s;
+    &:hover {
+        transform: rotate(25deg);
+    }
 }
 
 .register {
@@ -38,7 +42,7 @@ header {
     border-radius: 12px;
     background-color: #e6e6e6;
     color: #2c2c2c;
-    transition: all 0.3s ease 0s;
+    transition: all 0.2s ease 0s;
     &:hover {
         transform: rotate(5deg);
     }
