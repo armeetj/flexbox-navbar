@@ -1,0 +1,84 @@
+* {
+    font-family: "Ubuntu Mono", monospace;
+    box-sizing: border-box;
+    margin: none;
+    padding: none;
+}
+
+li,
+a,
+button {
+    color: #e6e6e6;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+header {
+    background-color: #2c2c2c;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+    border-radius: 15px;
+}
+
+.logo {
+    width: 60px;
+    justify-self: start;
+    cursor: pointer;
+}
+
+.register {
+    margin-left: 500px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    background-color: #e6e6e6;
+    color: #2c2c2c;
+    transition: all 0.3s ease 0s;
+    &:hover {
+        transform: rotate(5deg);
+    }
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    li {
+        a {
+            padding: 10px 20px;
+            margin: 50px;
+            border-radius: 12px;
+            transition: all 0.2s ease 0s;
+            &:hover {
+                background-color: #e6e6e6;
+                color: #2c2c2c;
+            }
+        }
+    }
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    li {
+        padding-left: 20px;
+        list-style: none;
+        img {
+            transition: all 0.2s ease 0s;
+            width: 20px;
+            &:hover {
+                cursor: pointer;
+                opacity: 0.5;
+                transform: rotate(25deg);
+            }
+        }
+    }
+}
+

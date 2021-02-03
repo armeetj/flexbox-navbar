@@ -1,0 +1,113 @@
+* {
+  font-family: "Ubuntu Mono", monospace;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: none;
+  padding: none;
+}
+
+li,
+a,
+button {
+  color: #e6e6e6;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+header {
+  background-color: #2c2c2c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0px;
+  border-radius: 15px;
+}
+
+.logo {
+  width: 60px;
+  -ms-grid-column-align: start;
+      justify-self: start;
+  cursor: pointer;
+}
+
+.register {
+  margin-left: 500px;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  background-color: #e6e6e6;
+  color: #2c2c2c;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.register:hover {
+  -webkit-transform: rotate(5deg);
+          transform: rotate(5deg);
+}
+
+.links {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.links li a {
+  padding: 10px 20px;
+  margin: 50px;
+  border-radius: 12px;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+}
+
+.links li a:hover {
+  background-color: #e6e6e6;
+  color: #2c2c2c;
+}
+
+.socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.socials li {
+  padding-left: 20px;
+  list-style: none;
+}
+
+.socials li img {
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+  width: 20px;
+}
+
+.socials li img:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  -webkit-transform: rotate(25deg);
+          transform: rotate(25deg);
+}
+/*# sourceMappingURL=style.css.map */
