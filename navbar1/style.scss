@@ -1,0 +1,58 @@
+* {
+    font-family: "Ubuntu Mono", monospace;
+    box-sizing: border-box;
+    margin: none;
+    padding: none;
+}
+
+li,
+a,
+button {
+    color: #e6e6e6;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+header {
+    background-color: #2c2c2c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    border-radius: 15px;
+}
+
+.logo {
+    width: 60px;
+    cursor: pointer;
+}
+
+.register button {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    background-color: #e6e6e6;
+    color: #2c2c2c;
+}
+
+.links {
+    width: 1000px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    li {
+        a {
+            padding: 10px 20px;
+            border-radius: 12px;
+            transition: all 0.2s ease 0s;
+            &:hover {
+                background-color: #e6e6e6;
+                color: #2c2c2c;
+            }
+        }
+    }
+}
