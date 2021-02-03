@@ -5,6 +5,12 @@
 - Not yet responsive
 ```
 
+## Table of Contents
+- [flexbox-navbar](#flexbox-navbar)
+  - [Table of Contents](#table-of-contents)
+  - [Style 1](#style-1)
+  - [Style 2](#style-2)
+
 ## Style 1
 | `/navbar1/index.html` |
 | :---: |
